@@ -1,4 +1,4 @@
-package model;
+package com.perfulandia.perfulandia.model;
 
 
 import jakarta.persistence.*;
