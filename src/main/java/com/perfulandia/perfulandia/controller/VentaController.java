@@ -23,7 +23,7 @@ public class VentaController {
     }
 
     @GetMapping("/{id}")
-    public Venta obtener(@PathVariable Integer id){
+    public Venta obtener(@PathVariable Long id){
         return ventaService.obtenerPorId(id);
     }
     @PostMapping
